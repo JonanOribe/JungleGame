@@ -19,6 +19,7 @@ public class GruntScript : MonoBehaviour
     {
         Player = GameObject.FindWithTag("Player").transform;
         Rigidbody2D = GetComponent<Rigidbody2D>();
+        Animator = GetComponent<Animator>();
     }
     void Update()
     {
@@ -36,6 +37,9 @@ public class GruntScript : MonoBehaviour
             Shoot();
             LastShoot = Time.time;
         }
+        else {
+            Animator.SetBool("running", false);
+        }
     }
 
     private void Shoot()
@@ -48,9 +52,9 @@ public class GruntScript : MonoBehaviour
 
         var random = new System.Random();
         int randomNumber = random.Next(2);
-        //Animator.SetBool("runningGrunt", true);
+        Animator.SetBool("running", true);
         Onward(randomNumber);
-        //Animator.SetBool("running", true);
+        
     }
 
     public void Hit()
