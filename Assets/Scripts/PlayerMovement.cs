@@ -40,13 +40,13 @@ public class PlayerMovement : MonoBehaviour
         else Grounded = false;
 
         // Salto
-        if (Input.GetKeyDown(KeyCode.W) && Grounded)
+        if (Input.GetKeyDown(KeyCode.Space) && Grounded)
         {
             Jump();
         }
 
         // Disparar
-        if (Input.GetKey(KeyCode.Space) && Time.time > LastShoot + 0.25f)
+        if (Input.GetKey(KeyCode.Mouse0) && Time.time > LastShoot + 0.25f)
         {
             Shoot();
             LastShoot = Time.time;
