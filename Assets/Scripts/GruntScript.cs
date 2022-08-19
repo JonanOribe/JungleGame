@@ -1,26 +1,32 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using static UnityEngine.GraphicsBuffer;
 
 public class GruntScript : MonoBehaviour
 {
-    public Transform John;
+    private Transform Player;
     public GameObject BulletPrefab;
 
-    private int Health = 3;
+    private int Health = 1;
     private float LastShoot;
 
+    void Awake()
+    {
+        Player = GameObject.FindWithTag("Player").transform;
+    }
     void Update()
     {
-        if (John == null) return;
+        
+        if (Player == null) return;
 
-        Vector3 direction = John.position - transform.position;
+        Vector3 direction = Player.position - transform.position;
         if (direction.x >= 0.0f) transform.localScale = new Vector3(1.0f, 1.0f, 1.0f);
         else transform.localScale = new Vector3(-1.0f, 1.0f, 1.0f);
 
-        float distance = Mathf.Abs(John.position.x - transform.position.x);
+        float distance = Mathf.Abs(Player.position.x - transform.position.x);
 
-        if (distance < 1.0f && Time.time > LastShoot + 0.25f)
+        if (distance < 1.0f && Time.time > LastShoot + 1.25f)
         {
             Shoot();
             LastShoot = Time.time;

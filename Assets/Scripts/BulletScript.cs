@@ -34,14 +34,14 @@ public class BulletScript : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         GruntScript grunt = other.GetComponent<GruntScript>();
-        JohnMovement john = other.GetComponent<JohnMovement>();
+        PlayerMovement Player = other.GetComponent<PlayerMovement>();
         if (grunt != null)
         {
             grunt.Hit();
         }
-        if (john != null)
+        if (Player != null)
         {
-            john.Hit();
+            Player.Hit();
         }
         DestroyBullet();
     }
