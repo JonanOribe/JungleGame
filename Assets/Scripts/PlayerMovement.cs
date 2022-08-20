@@ -75,7 +75,10 @@ public class PlayerMovement : MonoBehaviour
 
     public void Hit()
     {
+        Animator.SetBool("hurt", true);
         Health -= 1;
         if (Health == 0) Destroy(gameObject);
+        //new WaitForSeconds(1.500f);
+        //Animator.SetBool("hurt", false);
     }
 }
