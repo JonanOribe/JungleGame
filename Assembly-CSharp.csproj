@@ -57,11 +57,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\CeilingLamp.cs" />
     <Compile Include="Assets\Scripts\GruntScript.cs" />
     <Compile Include="Assets\Scripts\CameraScript.cs" />
-    <Compile Include="Assets\Scripts\BulletScript.cs" />
     <Compile Include="Assets\Scripts\SpikesScript.cs" />
-    <Compile Include="Assets\Scripts\CeilingLamp.cs" />
+    <Compile Include="Assets\Scripts\BulletScript.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\SpriteSheets\CyberLab\Readme.txt" />
