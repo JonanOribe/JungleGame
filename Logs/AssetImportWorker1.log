@@ -347,3 +347,91 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 188.438849 seconds.
+  path: Assets/SpriteSheets/props/plant.png
+  artifactKey: Guid(aefad7ca85e33b14b931494be8cefa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpriteSheets/props/plant.png using Guid(aefad7ca85e33b14b931494be8cefa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '756953bcf4f0b9fefa302733571a9996') in 0.103097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/SpriteSheets/props/shelter.png
+  artifactKey: Guid(303554688a19c724d81e8760892d835a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpriteSheets/props/shelter.png using Guid(303554688a19c724d81e8760892d835a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a96b554b835c08cd0404ab569d96360') in 0.022813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.589203 seconds.
+  path: Assets/SpriteSheets/titlescreen/GameOverScreen.png
+  artifactKey: Guid(4985712fc5761c44793900f6b28ac9dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpriteSheets/titlescreen/GameOverScreen.png using Guid(4985712fc5761c44793900f6b28ac9dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '052a78676c6a40a7f75b0b016e897394') in 0.054171 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/SpriteSheets/titlescreen/main_title_title_x.5.png
+  artifactKey: Guid(9d791d32038a7694897598ddd08ba3cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpriteSheets/titlescreen/main_title_title_x.5.png using Guid(9d791d32038a7694897598ddd08ba3cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ed00728dce2514bc8b23f57b163e9eb') in 0.034517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/SpriteSheets/titlescreen/main_title_bg.png
+  artifactKey: Guid(cf5bc30205b271e49ad9d97f9e7c0499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpriteSheets/titlescreen/main_title_bg.png using Guid(cf5bc30205b271e49ad9d97f9e7c0499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e891e324d794f4bdb9ccb6be0f5590c6') in 0.031444 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/SpriteSheets/titlescreen/main_title_press_start(201x23)_x.5.png
+  artifactKey: Guid(6525d566a465c054d80590fc9eab269b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpriteSheets/titlescreen/main_title_press_start(201x23)_x.5.png using Guid(6525d566a465c054d80590fc9eab269b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9963cde321852137325a642939be820') in 0.055356 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.592562 seconds.
+  path: Assets/SpriteSheets/ui/gun_icon.png
+  artifactKey: Guid(7ab5f580cee9cbf4d88a32bae4374b09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpriteSheets/ui/gun_icon.png using Guid(7ab5f580cee9cbf4d88a32bae4374b09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4635992b348f0ebb688ec89267c82159') in 0.009440 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/SpriteSheets/ui/multiplier_x1.png
+  artifactKey: Guid(0e0ac18827b919c44b629a2b72b199cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpriteSheets/ui/multiplier_x1.png using Guid(0e0ac18827b919c44b629a2b72b199cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8659bb2a4cf7fb09b7d3c5b3993e5cd0') in 0.029164 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/SpriteSheets/ui/ui_weapon_curve_blue.png
+  artifactKey: Guid(6004a118bfa3e664aad4997a51435a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpriteSheets/ui/ui_weapon_curve_blue.png using Guid(6004a118bfa3e664aad4997a51435a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20e7c452af7db2da89f126d3979eeeda') in 0.016164 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/SpriteSheets/ui/ui_medal_life_red.png
+  artifactKey: Guid(00fdb38e19c223044bcf59cc9904673b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpriteSheets/ui/ui_medal_life_red.png using Guid(00fdb38e19c223044bcf59cc9904673b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9408c083344db2e71ff6b2fa14fb55d5') in 0.082640 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/SpriteSheets/ui/player_icon_idle.png
+  artifactKey: Guid(df7325de4152c014ca77f1bbc8280fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpriteSheets/ui/player_icon_idle.png using Guid(df7325de4152c014ca77f1bbc8280fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8374a48d08f3fee46f57ada804d74ab2') in 0.064000 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/SpriteSheets/ui/ui_weapon_grenadier_blue.png
+  artifactKey: Guid(2d9330664fc12c14aac520b3521e0a61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpriteSheets/ui/ui_weapon_grenadier_blue.png using Guid(2d9330664fc12c14aac520b3521e0a61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '213efceffd563ea595f1cc3b36700e50') in 0.042318 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/SpriteSheets/ui/ui_weapon_target_red.png
+  artifactKey: Guid(de36a961167743e40ac3ce4a100e9a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpriteSheets/ui/ui_weapon_target_red.png using Guid(de36a961167743e40ac3ce4a100e9a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fb3bf34adb38a362e561b9109e4baab') in 0.016249 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.341148 seconds.
+  path: Assets/SpriteSheets/CyberLab/CL_Objects 16x16.png
+  artifactKey: Guid(cb029682efebc574194e94f129492de9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpriteSheets/CyberLab/CL_Objects 16x16.png using Guid(cb029682efebc574194e94f129492de9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2ae780aa092d9a8c6ad1c821ea7bb11') in 0.017079 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
