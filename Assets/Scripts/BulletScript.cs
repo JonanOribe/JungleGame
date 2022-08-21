@@ -36,6 +36,7 @@ public class BulletScript : MonoBehaviour
         GruntScript grunt = other.GetComponent<GruntScript>();
         PlayerMovement Player = other.GetComponent<PlayerMovement>();
         CeilingLamp ceilingLamp = other.GetComponent<CeilingLamp>();
+        RedBarrel redBarrel = other.GetComponent <RedBarrel>();
         if (grunt != null)
         {
             grunt.Hit();
@@ -46,6 +47,9 @@ public class BulletScript : MonoBehaviour
         }
         if (ceilingLamp != null) {
             ceilingLamp.Fall();
+        }
+        if (redBarrel != null) {
+            redBarrel.Hit();
         }
         DestroyBullet();
     }
