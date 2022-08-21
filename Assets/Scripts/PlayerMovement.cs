@@ -13,12 +13,17 @@ public class PlayerMovement : MonoBehaviour
     private float Horizontal;
     private bool Grounded;
     private float LastShoot;
-    private int Health = 5;
+    public int maxHealth = 5;
+    private int currentHealth;
+
+    public HealthBarScript healthBar;
 
     private void Start()
     {
         Rigidbody2D = GetComponent<Rigidbody2D>();
         Animator = GetComponent<Animator>();
+        currentHealth = maxHealth;
+        healthBar.SetMaxHealth(maxHealth);
     }
 
     private void Update()
@@ -76,8 +81,9 @@ public class PlayerMovement : MonoBehaviour
     public void Hit()
     {
         Animator.SetBool("hurt", true);
-        Health -= 1;
-        if (Health == 0) Destroy(gameObject);
+        currentHealth -= 1;
+        healthBar.SetHealth(currentHealth);
+        if (currentHealth == 0) Destroy(gameObject);
         //new WaitForSeconds(1.500f);
         //Animator.SetBool("hurt", false);
     }
