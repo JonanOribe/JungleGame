@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
@@ -17,6 +18,10 @@ public class PlayerMovement : MonoBehaviour
     private int currentHealth;
 
     public HealthBarScript healthBar;
+    public Blood blood;
+    public AudioClip damageSound;
+    public AudioClip jumpSound;
+    public AudioClip deathSound;
 
     private void Start()
     {
@@ -47,6 +52,7 @@ public class PlayerMovement : MonoBehaviour
         // Salto
         if (Input.GetKeyDown(KeyCode.Space) && Grounded)
         {
+            Camera.main.GetComponent<AudioSource>().PlayOneShot(jumpSound);
             Jump();
         }
 
@@ -83,8 +89,11 @@ public class PlayerMovement : MonoBehaviour
         Animator.SetBool("hurt", true);
         currentHealth -= 1;
         healthBar.SetHealth(currentHealth);
-        if (currentHealth == 0) Destroy(gameObject);
-        //new WaitForSeconds(1.500f);
-        //Animator.SetBool("hurt", false);
+        Camera.main.GetComponent<AudioSource>().PlayOneShot(damageSound);
+        if (currentHealth == 0) {
+            Destroy(gameObject);
+            Camera.main.GetComponent<AudioSource>().PlayOneShot(deathSound);
+        }
+        else { blood.LostBlood(); }
     }
 }
