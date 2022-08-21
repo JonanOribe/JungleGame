@@ -16120,7 +16120,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b02a1805520de95468f18bdb99e61ffd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ammoText: {fileID: 0}
+  ammoText: {fileID: 1892582270}
 --- !u!1 &1281662499
 GameObject:
   m_ObjectHideFlags: 0

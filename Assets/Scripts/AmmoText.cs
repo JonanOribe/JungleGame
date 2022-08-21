@@ -6,6 +6,7 @@ using UnityEngine;
 public class AmmoText : MonoBehaviour
 {
     public TMP_Text ammoText;
+    private string ammoTextString = "Ammo: ";
     private int ammoTextVal=0;
     void Start()
     {
@@ -14,6 +15,6 @@ public class AmmoText : MonoBehaviour
 
     public void ChangeText() {
         ammoTextVal += 1;
-        ammoText.text =  ammoText.text + ammoTextVal.ToString();
+        ammoText.text = ammoTextString + ammoTextVal.ToString();
     }
 }
