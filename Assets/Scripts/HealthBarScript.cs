@@ -8,6 +8,18 @@ public class HealthBarScript : MonoBehaviour
     public Slider slider;
     public Gradient gradient;
     public Image fill;
+    public Transform Player;
+
+    void Update()
+    {
+        if (Player != null)
+        {
+            Vector3 position = transform.position;
+            position.x = Player.position.x;
+            transform.position = position;
+            Debug.Log("Moving");
+        }
+    }
 
     public void SetMaxHealth(int health) {
         slider.maxValue = health;

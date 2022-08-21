@@ -63,6 +63,7 @@
     <Compile Include="Assets\Scripts\SpikesScript.cs" />
     <Compile Include="Assets\Scripts\HealthBarScript.cs" />
     <Compile Include="Assets\Scripts\BulletScript.cs" />
+    <Compile Include="Assets\Scripts\Billboard.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\SpriteSheets\CyberLab\Readme.txt" />
